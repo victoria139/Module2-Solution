@@ -1,16 +1,15 @@
-/********** Base styles reseting browser preset margins and box size**********/
+/********** Base Styles For Browser Preset Margins & Box Size**********/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/********** Container body font family and font size ***********/
+/********** Font family & Font Sizes ***********/
 body {
   font-family: sans-serif;
   font-size: 100%;
 }
-/********** Container H2 styles for region position on section with margins
-, size, border and !float clearing!********/
+/********** H2 Styles For Position On Section With Margins, Size, Border & Float Clearing********/
 h2{
   position: absolute;
   top: 0px;
@@ -19,18 +18,17 @@ h2{
   float: none;
   width: 140px;
   height: 35px;
-  border:1px solid black;
+  border:2px solid black;
   text-align:center;
   padding: center;
   }
-/********* Descripbing Header text align margins and style **********/
-h1 {
+/********* Descripbing Header Text Align Margins & Style **********/
+h1 { 
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%; 
 }
-/********* Section text/background align margins padding and style **********/
-  
+/********* Section Text/Background Align Margins Padding & Style **********/
 .section {  
   clear: margin;
   position: relative;
@@ -44,7 +42,7 @@ h1 {
   margin-bottom: 15px;
   margin-right: 15px;
   }  
-  /********* Region positioning text align margins and style **********/
+  /********* Positioning Text Align Margins & Style **********/
   .chicken{
     background-color:#009999;         
     color: white;
@@ -57,7 +55,7 @@ h1 {
     background-color:#993366;
     color: white;   
    }
-/********** Large devices only **********/
+/********** Desktop Device Only **********/
 @media (min-width: 992px) {  
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -100,7 +98,7 @@ h1 {
     width: 100%;
   }
 }
-/********** Medium devices only **********/
+/********** Tablet Device Only **********/
 @media (min-width: 768px) and (max-width: 991px) {  
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -143,7 +141,7 @@ h1 {
     width: 100%;
   }
 }  
-  /********** Small devices only **********/
+  /********** Mobile Device Only **********/
 ***@media (max-width: 767px){  
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
