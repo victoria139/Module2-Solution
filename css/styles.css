@@ -18,7 +18,7 @@ h2{
   float: none;
   width: 140px;
   height: 35px;
-  border:2px solid black;
+  border:1px solid black;
   text-align:center;
   padding: center;
   }
@@ -37,22 +37,22 @@ h1 {
   padding: 10px;
   padding-top: 45px;
   font-size: 100%;
-  border:3px solid black;
+  border:1px solid black;
   margin-left: 15px;
   margin-bottom: 15px;
   margin-right: 15px;
   }  
   /********* Positioning Text Align Margins & Style **********/
   .chicken{
-    background-color:#009999;         
+    background-color:darkred;         
     color: white;
     }
    .beef{
-    background-color:#3333ff;
+    background-color:darkblue;
     color: white;  
    }
    .sushi{
-    background-color:#993366;
+    background-color:darkgreen;
     color: white;   
    }
 /********** Desktop Device Only **********/
