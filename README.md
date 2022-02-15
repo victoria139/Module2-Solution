@@ -1,8 +1,5 @@
 # Module2-Solution
 Module 2 Coding Assignment
-<<<<<<< Updated upstream
-=======
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,4 +31,3 @@ Module 2 Coding Assignment
 
 </body>
 </html>
->>>>>>> Stashed changes
