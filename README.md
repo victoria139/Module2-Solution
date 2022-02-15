@@ -1,5 +1,4 @@
 # Module2-Solution
-Module 2 Coding Assignment
 <!DOCTYPE html>
 <html>
 <head>
